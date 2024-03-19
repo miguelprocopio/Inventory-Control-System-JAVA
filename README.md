@@ -3,7 +3,9 @@
 Requisitos Mínimos:
  
 Para começar, o programa apresenta um menu interativo para o usuário, no qual ele pode escolher entre diferentes opções, como adicionar um produto, remover um produto, consultar um produto ou atualizar as informações de um produto existente. Isso é feito para garantir que o usuário possa facilmente interagir com o sistema e executar as operações desejadas de forma simples e direta.
+
 Em seguida, os dados dos produtos são armazenados em um ArrayList, uma estrutura de dados dinâmica em Java que permite armazenar uma coleção de objetos sem precisar definir previamente o seu tamanho. Cada produto é representado por uma instância da classe Produto, que contém informações como nome, categoria, quantidade e preço. Esses produtos são adicionados ao ArrayList conforme necessário, seja quando o usuário adiciona um novo produto ou quando o sistema carrega os dados do estoque a partir de um arquivo.
+
 Além disso, o programa trata cuidadosamente situações em que o usuário tenta remover um produto que não está presente no estoque. Antes de executar a remoção, o sistema verifica se o produto em questão está na lista de produtos. Se não estiver, uma mensagem é exibida informando ao usuário que o produto não está disponível para remoção. Isso evita possíveis erros e garante uma experiência mais fluida para o usuário.
  
 Requisitos Adicionais:
